@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <h1>Добавить новый пост</h1>
-  
-  <!-- Поля для создания нового поста -->
-  <div>
-    <input type="text" id="postTitle" placeholder="Заголовок поста" />
-    <textarea id="postBody" placeholder="Текст поста"></textarea>
-    <button id="createPostButton">Создать пост</button>
-  </div>
-  
-  <h2>Список постов</h2>
-  <div id="postsContainer"></div>
-
-    <script src="./index.js"></script>
+  <header>
+    <h1>Add new post / Добавить новый пост</h1>
+  </header>
+  <main>
+    <!-- Поля для создания нового поста -->
+    <div id="postsForm">
+      <input type="text" id="postTitle" placeholder="Post title / Заголовок поста" />
+      <textarea id="postBody" placeholder="Post text / Текст поста"></textarea>
+      <button id="createPostButton">Create a post /<br> Создать пост</button>
+    </div>
+    <h2>List of posts / Список постов</h2>
+    <div id="postsContainer"></div>
+  </main>
+  <footer>
+    <p>By AsyaAir</p>
+  </footer>
+  <script src="./index.js"></script>
 </body>
 </html>
